@@ -1,0 +1,16 @@
+{
+  "name": "open-data-jp-municipalities",
+  "version": "1.0.0",
+  "description": "List of Japanese municipalities in an accessible format",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --watch index.js"
+  },
+  "author": "Fabio Crisci",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^2.5.0",
+    "pdfreader": "^0.2.5"
+  }
+}
